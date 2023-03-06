@@ -1,4 +1,4 @@
-# Gists
+# 🤓 Gists - Technical stuff worth to share
 
 Valters Zana, gists for better IT performance.
 
