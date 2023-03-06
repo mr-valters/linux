@@ -25,7 +25,6 @@ alias open='xdg-open "$(pwd)"'
 alias phpl="lando logs -t -f -s appserver"
 alias gd0="gd --exit-code"
 alias ds="docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}'"
-alias silta-secret="/bin/bash ~/Documents/wd/silta-secret.sh"
 
 ## Lando tools
 alias npm="lando npm"
@@ -47,3 +46,6 @@ alias es="drush cr && drush queue:delete elasticsearch_helper_indexing && drush 
 
 ## VCS commands (SCB Breeze overrides & other)
 alias gca="git add . && git commit -a"
+
+## Work related scripts
+source ~/Documents/wd/0ther/wunder.sh
