@@ -27,6 +27,9 @@ alias gd0="gd --exit-code"
 alias ds="docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}'"
 
 ## Lando tools
+alias start="lando start"
+alias stop="lando stop"
+alias off="lando poweroff"
 alias npm="lando npm"
 alias npx="lando npx"
 alias yarn="lando yarn"
