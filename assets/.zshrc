@@ -45,7 +45,7 @@ alias cim="drush cim"
 alias cex="drush cex"
 alias updb="drush updb"
 alias cron="drush cron"
-alias es="drush cr && drush queue:delete elasticsearch_helper_indexing && drush eshd -y && drush eshs -y && drush eshr -y && drush queue-run elasticsearch_helper_indexing"
+alias es="drush cr && drush queue:delete elasticsearch_helper_indexing && drush eshd -y && drush eshs -y && drush eshr -y && drush queue:list && drush queue-run elasticsearch_helper_indexing"
 
 ## VCS commands (SCB Breeze overrides & other)
 alias gca="git add . && git commit -a"
