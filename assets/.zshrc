@@ -37,6 +37,10 @@ alias gulp="lando gulp"
 alias vercel="lando vercel"
 alias composer="lando composer"
 
+## npm commands
+alias dev="lando npm run dev"
+alias build="lando npm run build"
+
 ## Drush commands
 alias drush="lando drush"
 alias cr="drush cr"
