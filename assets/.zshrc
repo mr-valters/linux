@@ -19,6 +19,9 @@ source $ZSH/custom/themes/spaceship.zsh-theme
 source $ZSH/oh-my-zsh.sh
 source $HOME/.scm_breeze/scm_breeze.sh
 
+## Colors
+source ~/Documents/gists/assets/colors.sh
+
 alias ipinfo="curl -H 'Accept: application/json' ipinfo.io && echo \\"
 alias ports="sudo lsof -i -P -n | grep LISTEN"
 alias open='xdg-open "$(pwd)"'
@@ -34,12 +37,9 @@ alias npm="lando npm"
 alias npx="lando npx"
 alias yarn="lando yarn"
 alias gulp="lando gulp"
+alias bower="lando bower"
 alias vercel="lando vercel"
 alias composer="lando composer"
-
-## npm commands
-alias dev="lando npm run dev"
-alias build="lando npm run build"
 
 ## Drush commands
 alias drush="lando drush"
