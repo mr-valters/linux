@@ -41,6 +41,11 @@ alias bower="lando bower"
 alias vercel="lando vercel"
 alias composer="lando composer"
 
+## Composer commands
+alias require="composer require"
+alias why="composer why"
+alias outdated="composer outdated --direct"
+
 ## Drush commands
 alias drush="lando drush"
 alias cr="drush cr"
