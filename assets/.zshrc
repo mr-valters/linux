@@ -29,7 +29,7 @@ alias phpl="lando logs -t -f -s appserver"
 alias gd0="gd --exit-code"
 alias ds="docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}'"
 
-## Lando tools
+# Lando
 alias start="lando start"
 alias stop="lando stop"
 alias off="lando poweroff"
@@ -61,3 +61,10 @@ alias gca="git add . && git commit -a"
 
 ## Work related scripts
 source ~/Documents/wd/0ther/wunder.sh
+
+export PATH="/home/sebastian/.lando/bin${PATH+:$PATH}"; #landopath
+
+function ratio {
+    aspect_ratio=$(identify -format "%[fx:16/(w/h)]" "$1")
+    echo "16:$aspect_ratio"
+}
