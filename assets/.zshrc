@@ -1,4 +1,4 @@
-export EDITOR=gedit
+export EDITOR=subl
 export ZSH=$HOME/.oh-my-zsh
 
 SPACESHIP_ROOT=$ZSH/custom/themes/spaceship-prompt
