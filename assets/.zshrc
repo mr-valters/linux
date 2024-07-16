@@ -26,7 +26,6 @@ alias ipinfo="curl -H 'Accept: application/json' ipinfo.io && echo \\"
 alias ports="sudo lsof -i -P -n | grep LISTEN"
 alias open='xdg-open "$(pwd)"'
 alias phpl="lando logs -t -f -s appserver"
-alias gd0="gd --exit-code"
 alias ds="docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}'"
 
 # Lando
@@ -58,6 +57,10 @@ alias es="drush cr && drush queue:delete elasticsearch_helper_indexing && drush 
 
 ## VCS commands (SCB Breeze overrides & other)
 alias gca="git add . && git commit -a"
+## Output diff in console. Parameters allowed
+alias gd0="gd --exit-code"
+## Output diff of All Untracked Files
+alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-pager diff --no-index /dev/null"
 
 ## Work related scripts
 source ~/Documents/wd/0ther/wunder.sh
