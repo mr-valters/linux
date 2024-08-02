@@ -45,16 +45,6 @@ alias require="composer require"
 alias why="composer why"
 alias outdated="composer outdated --direct"
 
-## Drush commands
-alias drush="lando drush"
-alias cr="drush cr"
-alias uli="drush uli"
-alias cim="drush cim"
-alias cex="drush cex"
-alias updb="drush updb"
-alias cron="drush cron"
-alias es="drush cr && drush queue:delete elasticsearch_helper_indexing && drush eshd -y && drush eshs -y && drush eshr -y && drush queue:list && drush queue-run elasticsearch_helper_indexing"
-
 ## VCS commands (SCB Breeze overrides & other)
 alias gca="git add . && git commit -a"
 ## Output diff in console. Parameters allowed
@@ -62,10 +52,9 @@ alias gd0="gd --exit-code"
 ## Output diff of All Untracked Files
 alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-pager diff --no-index /dev/null"
 
-## Work related scripts
-source ~/Documents/wd/0ther/wunder.sh
+alias gists='cd ~/Documents/gists'
 
-export PATH="/home/sebastian/.lando/bin${PATH+:$PATH}"; #landopath
+export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"; #landopath
 
 function ratio {
     aspect_ratio=$(identify -format "%[fx:16/(w/h)]" "$1")

@@ -1,6 +1,6 @@
 # 🤓 Gists - Technical stuff worth to share
 
-Valters Zana, gists for better IT performance.
+Sebastian Monta, gists for better IT performance.
 
 </br>
 
