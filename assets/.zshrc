@@ -54,6 +54,9 @@ alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-
 
 alias gists='cd ~/Documents/gists'
 
+# Brighter screen
+alias brighter='~/Documents/gists/assets/brighter.sh'
+
 export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"; #landopath
 
 function ratio {
