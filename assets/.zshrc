@@ -54,8 +54,11 @@ alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-
 
 alias gists='cd ~/Documents/gists'
 
-# Brighter screen
+# Brighter or darker screen
 alias brighter='~/Documents/gists/assets/brighter.sh'
+alias darker='~/Documents/gists/assets/darker.sh'
+alias brightness='xrandr --verbose | grep -i brightness'
+
 
 export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"; #landopath
 
