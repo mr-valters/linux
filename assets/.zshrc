@@ -52,6 +52,13 @@ alias gd0="gd --exit-code"
 ## Output diff of All Untracked Files
 alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-pager diff --no-index /dev/null"
 
+alias gists='cd ~/Documents/gists'
+
+# Brighter or darker screen
+alias brighter='~/Documents/gists/assets/brighter.sh'
+alias darker='~/Documents/gists/assets/darker.sh'
+alias brightness='xrandr --verbose | grep -i brightness'
+
 export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"; #landopath
 
 function ratio {
