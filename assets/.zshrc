@@ -39,6 +39,7 @@ alias gulp="lando gulp"
 alias bower="lando bower"
 alias vercel="lando vercel"
 alias composer="lando composer"
+alias symfony="lando symfony"
 
 ## Composer commands
 alias require="composer require"
