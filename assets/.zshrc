@@ -38,18 +38,23 @@ alias yarn="lando yarn"
 alias gulp="lando gulp"
 alias bower="lando bower"
 alias vercel="lando vercel"
-alias composer="lando composer"
-alias symfony="lando symfony"
+# alias composer="lando composer"
+# alias symfony="lando symfony"
 
 ## Composer commands
 alias require="composer require"
 alias why="composer why"
 alias outdated="composer outdated --direct"
 
+## Symfony console
+alias console="php bin/console"
+
 ## VCS commands (SCB Breeze overrides & other)
 alias gca="git add . && git commit -a"
+
 ## Output diff in console. Parameters allowed
 alias gd0="gd --exit-code"
+
 ## Output diff of All Untracked Files
 alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-pager diff --no-index /dev/null"
 
