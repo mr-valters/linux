@@ -38,36 +38,15 @@ alias yarn="lando yarn"
 alias gulp="lando gulp"
 alias bower="lando bower"
 alias vercel="lando vercel"
-# alias composer="lando composer"
-# alias symfony="lando symfony"
+alias composer="lando composer"
 
 ## Composer commands
 alias require="composer require"
 alias why="composer why"
 alias outdated="composer outdated --direct"
 
-## Symfony console
-alias console="php bin/console"
-
-## VCS commands (SCB Breeze overrides & other)
-alias gca="git add . && git commit -a"
-
 ## Output diff in console. Parameters allowed
 alias gd0="gd --exit-code"
 
-## Output diff of All Untracked Files
-alias gdu="git ls-files --others --exclude-standard -z | xargs -0 -n 1 git --no-pager diff --no-index /dev/null"
-
-alias gists='cd ~/Documents/gists'
-
-# Brighter or darker screen
-alias brighter='~/Documents/gists/assets/brighter.sh'
-alias darker='~/Documents/gists/assets/darker.sh'
-alias brightness='xrandr --verbose | grep -i brightness'
-
-export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"; #landopath
-
-function ratio {
-    aspect_ratio=$(identify -format "%[fx:16/(w/h)]" "$1")
-    echo "16:$aspect_ratio"
-}
+#landopath
+export PATH="/home/$USER/.lando/bin${PATH+:$PATH}"
