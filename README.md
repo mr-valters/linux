@@ -20,7 +20,7 @@ Action when scrolling a dock. Suggested value: '**do-nothing**' / default: 'swit
 
 `/org/gnome/shell/extensions/dash-to-dock/scroll-action`
 
-## Enable Quick Preview
+## [Gnome Sushi](https://en.wikipedia.org/wiki/GNOME_sushi) - Enable Quick Preview
 
 Click on the file and hit Space to preview it.
 
@@ -46,9 +46,7 @@ Develop faster. Run anywhere.
 
 Coding at lightspeed.
 
-Set channel + [Make the "unsupported docker" warning less obtrusive](https://github.com/lando/lando/issues/3511#issuecomment-1904519771):
-
-Open `~/.lando/config.yml` & add / modify:
+Set channel + [Make the "unsupported docker" warning less obtrusive](https://github.com/lando/lando/issues/3511#issuecomment-1904519771): open `~/.lando/config.yml` & add / modify:
 
 ```YAML
 channel: none
@@ -86,9 +84,7 @@ Basic [Installation](https://github.com/spaceship-prompt/spaceship-prompt#-insta
 
 Set of shell scripts (for bash and zsh) that enhance your interaction with git.
 
-Basic [Installation](https://github.com/scmbreeze/scm_breeze#installation) steps.
-
-**Update** SCM Breeze: `update_scm_breeze`
+Basic [Installation](https://github.com/scmbreeze/scm_breeze#installation) steps. **Update** SCM Breeze: `update_scm_breeze`
 
 #### Git global config
 
