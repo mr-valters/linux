@@ -6,6 +6,7 @@ ZSH_THEME="spaceship"
 COMPLETION_WAITING_DOTS=true
 
 # https://spaceship-prompt.sh/config/intro
+SPACESHIP_PROMPT_ASYNC=false
 SPACESHIP_TIME_SHOW=true
 SPACESHIP_BATTERY_THRESHOLD=95
 SPACESHIP_NODE_SHOW=false
