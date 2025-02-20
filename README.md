@@ -84,15 +84,17 @@ Update SCM Breeze: `update_scm_breeze`
 
 ### Git global config
 
-`git config --global push.autoSetupRemote true`
+Store your credentials : `git config --global credential.helper store`
 
-`git config --global push.default current`
+Automatically set up remote tracking on push: `git config --global push.autoSetupRemote true`
 
-`git config --global core.editor "subl --wait"`
+Push current branch to remote with the same name: `git config --global push.default current`
 
-`git config --global user.email "may@domain.com"`
+Set Nano as the default editor for Git: `git config --global core.editor "nano --wait"`
 
-`git config --global user.name "Firstname Lastname"`
+Set user email for commits: `git config --global user.email "may@domain.com"`
+
+Set user name for commits: `git config --global user.name "Firstname Lastname"`
 
 ## Ubuntu Desktop, basics
 
