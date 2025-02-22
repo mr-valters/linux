@@ -16,7 +16,7 @@ Viewer and editor of applications internal settings
 
 `/org/gnome/shell/extensions/dash-to-dock/click-action`
 
-- Action when scrolling a dock. Suggested value: '**do-nothing**' / default: 'switch-workspace':
+- Action when scrolling a dock. Suggested value: '**cycle-windows**' / default: 'switch-workspace':
 
 `/org/gnome/shell/extensions/dash-to-dock/scroll-action`
 
