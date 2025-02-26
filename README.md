@@ -52,7 +52,7 @@ channel: none
 dockerSupportedVersions:
   engine:
     satisfies: '>22'
-      tested: '>22'
+    tested: '>22'
 ```
 
 Original config: https://github.com/lando/core/blob/main/config.yml
