@@ -67,7 +67,7 @@ Download [.zshrc](https://raw.githubusercontent.com/mr-valters/gists/main/assets
 
 Framework for managing your zsh configuration.
 
-1. Prerequisite (zsh, curl / wget, git): `sudo apt install zsh curl wget git ruby`
+1. Prerequisite and some extra tools (zsh, curl / wget, git, jr): `sudo apt install zsh curl wget git ruby jr`
 
 2. [Install oh-my-zsh](https://ohmyz.sh/#install)
 
