@@ -120,3 +120,14 @@ Turn up the video sound : `ffmpeg -i input.mp4 -af "volume=19dB" -c:v copy outpu
 ## xinput
 
 Open `/usr/share/X11/xorg.conf.d` folder and turn off proper `MatchIsTouchscreen` values. More in [How to Disable Touchscreen in Linux](https://www.blackmoreops.com/2021/09/24/how-to-disable-touchscreen-on-ubuntu/) and [Disable touchscreen though Xorg config](https://www.blackmoreops.com/2021/09/24/how-to-disable-touchscreen-on-ubuntu/)
+
+## Volume control granularity
+
+Adjusts the granularity of volume changes triggered by media keys
+
+Set volume step to 2 (default is 6):
+
+```bash
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 2
+```
+
