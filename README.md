@@ -125,9 +125,9 @@ Open `/usr/share/X11/xorg.conf.d` folder and turn off proper `MatchIsTouchscreen
 
 Adjusts the granularity of volume changes triggered by media keys
 
-Set volume step to 2 (default is 6):
-
+**Set** volume step size to 2 (default is 6):
 ```bash
 gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 2
 ```
 
+Use `get` to verify the current `volume-step` value, `reset` for reverting to default. No need paraemters for verify & reset.
