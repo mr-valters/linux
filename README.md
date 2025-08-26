@@ -151,3 +151,11 @@ Binding: `Super`+`E` (like in Windows Explorer opens)
 Command: `Documents/kill_vlc.sh` (Get [kill_vlc.sh](https://raw.githubusercontent.com/mr-valters/gists/main/assets/kill_vlc.sh) and put in _$HOME/Documents_ or elsewhere) 
 
 Binding: `Ctrl`+`Shift`+`K` (**K** stands for kill)
+
+## 🧹 Cleaning Up System Logs with `journalctl`
+
+See disk usage: `journalctl --disk-usage`
+
+One-time clean: `sudo journalctl --vacuum-time=3d` or `sudo journalctl --vacuum-size=50M`
+
+Persistent log amount limitation: Edit file: `sudo nano /etc/systemd/journald.conf` add entry there with a value `SystemMaxRetention=7d` and then `sudo systemctl restart systemd-journald`
