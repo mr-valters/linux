@@ -26,7 +26,6 @@ source ~/Documents/gists/assets/colors.sh
 alias ipinfo="curl -H 'Accept: application/json' ipinfo.io && echo \\"
 alias ports="sudo lsof -i -P -n | grep LISTEN"
 alias open='xdg-open "$(pwd)"'
-alias phpl="lando logs -t -f -s appserver"
 alias ds="docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}'"
 
 # Lando
@@ -40,11 +39,15 @@ alias gulp="lando gulp"
 alias bower="lando bower"
 alias vercel="lando vercel"
 alias composer="lando composer"
+alias phpl="lando logs -t -f -s appserver"
 
 ## Composer commands
 alias require="composer require"
 alias why="composer why"
 alias outdated="composer outdated --direct"
+
+## Laravel
+alias a="php artisan"
 
 ## Output diff in console. Parameters allowed
 alias gd0="gd --exit-code"
