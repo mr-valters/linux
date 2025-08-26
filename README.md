@@ -131,3 +131,23 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 2
 ```
 
 Use `get` to verify the current `volume-step` value, `reset` for reverting to default. No need paraemters for verify & reset.
+
+## Custom keybindings / Keyboard shortcuts
+
+### System monitor [processes]
+
+Command: `gnome-system-monitor -p` (`-p` shows the **Processes** tab; `-r` shows the **Resources** tab)
+
+Binding: `Ctrl`+`Shift`+`Esc`
+
+### Open file explorer
+
+Command: `nautilus Downloads` (opens Downloads folder in $HOME) 
+
+Binding: `Super`+`E` (like in Windows Explorer opens)
+
+### Kill VLC
+
+Command: `Documents/kill_vlc.sh` (Get [kill_vlc.sh](https://raw.githubusercontent.com/mr-valters/gists/main/assets/kill_vlc.sh) and put in _$HOME/Documents_ or elsewhere) 
+
+Binding: `Ctrl`+`Shift`+`K` (**K** stands for kill)
