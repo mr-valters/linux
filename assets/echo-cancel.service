@@ -1,0 +1,13 @@
+# ~/.config/systemd/user/echo-cancel.service
+# Enable: systemctl --user daemon-reexec && systemctl --user enable echo-cancel.service && systemctl --user start echo-cancel.service
+
+[Unit]
+Description=Load PulseAudio Echo Cancel Module
+After=sound.target
+
+[Service]
+ExecStart=%h/Documents/Apps/load_echo_cancel.sh
+Type=oneshot
+
+[Install]
+WantedBy=default.target
